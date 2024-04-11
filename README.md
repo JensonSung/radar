@@ -8,7 +8,7 @@ Radar is the implementation of raw database construction in this paper.
 Requirements:
 * Java 11 or above
 * [Maven](https://maven.apache.org/) (`sudo apt install maven` on Ubuntu)
-* The DBMS that you want to test (currently support MySQL, SQLite, CockroachDB, and TiDB)
+* The DBMS that you want to test (currently support MySQL, MariaDB, SQLite, CockroachDB, and TiDB)
 * SQLite is an embedded database, which does not need extra setup and does not require connection parameters
 * Other databases like MySQL, which requires connection parameters and needs to create a database named test
 ```
@@ -61,7 +61,8 @@ java -jar sqlancer-2.0.0.jar --host 127.0.0.1 --port 3306 --username root --pass
 | 35 | MySQL       | 8.0.32  | [MySQL-11272](https://bugs.mysql.com/bug.php?id=111272)                    | Confirmed      |
 | 36 | TiDB        | 7.2.0   | [TiDB-45410](https://github.com/pingcap/tidb/issues/45410)                 | Confirmed      |
 | 37 | TiDB        | 7.2.0   | [TiDB-45550](https://github.com/pingcap/tidb/issues/45550)                 | Confirmed      |
-| 38 | MySQL       | 8.0.32  | [MySQL-110256](https://bugs.mysql.com/bug.php?id=110256)                   | Duplicate      |
-| 39 | CockroachDB | 22.2.5  | [CockroachDB-97672](https://github.com/cockroachdb/cockroach/issues/97672) | False Positive |
-| 40 | SQLite      | 3.41.0  | [SQLite-60f85edfaf](https://sqlite.org/forum/forumpost/60f85edfaf)         | False Positive |
-| 41 | SQLite      | 3.41.0  | [SQLite-a2bde2b8f9](https://sqlite.org/forum/forumpost/a2bde2b8f9)         | False Positive |
+| 38 | MariaDB     | 11.0.3  | [MariaDB#31951](https://jira.mariadb.org/browse/MDEV-31951)                | Confirmed      |
+| 39 | MySQL       | 8.0.32  | [MySQL-110256](https://bugs.mysql.com/bug.php?id=110256)                   | Duplicate      |
+| 40 | CockroachDB | 22.2.5  | [CockroachDB-97672](https://github.com/cockroachdb/cockroach/issues/97672) | False Positive |
+| 41 | SQLite      | 3.41.0  | [SQLite-60f85edfaf](https://sqlite.org/forum/forumpost/60f85edfaf)         | False Positive |
+| 42 | SQLite      | 3.41.0  | [SQLite-a2bde2b8f9](https://sqlite.org/forum/forumpost/a2bde2b8f9)         | False Positive |

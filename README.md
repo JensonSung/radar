@@ -62,7 +62,7 @@ java -jar sqlancer-2.0.0.jar --host 127.0.0.1 --port 3306 --username root --pass
 | 36 | TiDB | 7.0.0 | [TiDB#44268](https://github.com/pingcap/tidb/issues/44268) | Confirmed |
 | 37 | TiDB | 7.0.0 | [TiDB#44270](https://github.com/pingcap/tidb/issues/44270) | Confirmed |
 | 38 | TiDB | 7.2.0 | [TiDB#45550](https://github.com/pingcap/tidb/issues/45550) | Confirmed |
-| 39 | MySQL | 7.2.0 | [MySQL#110121102565](https://bugs.mysql.com/bug.php?id=110256) | Duplicate |
+| 39 | MySQL | 7.2.0 | [MySQL#110256](https://bugs.mysql.com/bug.php?id=110256) | Duplicate |
 | 40 | CockroachDB | 22.2.5 | [CockroachDB#97672](https://github.com/cockroachdb/cockroach/issues/97672) | False positive |
 | 41 | SQLite | 22.2.5 | [SQLite#60f85edfaf](https://sqlite.org/forum/forumpost/60f85edfaf) | False positive |
 | 42 | SQLite | 22.2.5 | [SQLite#a2bde2b8f9](https://sqlite.org/forum/forumpost/a2bde2b8f9) | False positive |

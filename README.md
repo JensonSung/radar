@@ -34,7 +34,7 @@ java -jar sqlancer-2.0.0.jar --host 127.0.0.1 --port 3306 --username root --pass
 | 8 | TiDB | 6.6.0 | [TiDB#41736](https://github.com/pingcap/tidb/issues/41736) | Fixed |
 | 9 | TiDB | 6.6.0 | [TiDB#41753](https://github.com/pingcap/tidb/issues/41753) | Fixed |
 | 10 | TiDB | 7.0.0 | [TiDB#44196](https://github.com/pingcap/tidb/issues/44196) | Fixed |
-| 11 | TiDB | 7.0.0 | [TiDB#44258](https://github.com/pingcap/tidb/issues/44258) | Fixed |
+| 11 | TiDB | 7.0.0 | [TiDB#44127](https://github.com/pingcap/tidb/issues/44127) | Fixed |
 | 12 | TiDB | 7.0.0 | [TiDB#44274](https://github.com/pingcap/tidb/issues/44274) | Fixed |
 | 13 | TiDB | 7.1.0 | [TiDB#44359](https://github.com/pingcap/tidb/issues/44359) | Fixed |
 | 14 | TiDB | 7.2.0 | [TiDB#45253](https://github.com/pingcap/tidb/issues/45253) | Fixed |
@@ -53,7 +53,7 @@ java -jar sqlancer-2.0.0.jar --host 127.0.0.1 --port 3306 --username root --pass
 | 27 | TiDB | 6.6.0 | [TiDB#41878](https://github.com/pingcap/tidb/issues/41878) | Confirmed |
 | 28 | TiDB | 6.6.0 | [TiDB#41911](https://github.com/pingcap/tidb/issues/41911) | Confirmed |
 | 29 | TiDB | 6.6.0 | [TiDB#41937](https://github.com/pingcap/tidb/issues/41937) | Confirmed |
-| 30 | TiDB | 7.0.0 | [TiDB#44127](https://github.com/pingcap/tidb/issues/44127) | Confirmed |
+| 30 | TiDB | 7.0.0 | [TiDB#44258](https://github.com/pingcap/tidb/issues/44258) | Confirmed |
 | 31 | TiDB | 7.0.0 | [TiDB#44135](https://github.com/pingcap/tidb/issues/44135) | Confirmed |
 | 32 | TiDB | 7.0.0 | [TiDB#44213](https://github.com/pingcap/tidb/issues/44213) | Confirmed |
 | 33 | TiDB | 7.0.0 | [TiDB#44218](https://github.com/pingcap/tidb/issues/44218) | Confirmed |
